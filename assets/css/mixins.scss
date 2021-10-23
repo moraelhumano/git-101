@@ -1,0 +1,26 @@
+@mixin container-p($height, $width, $bg-color, $justify-content, $align,$border-radius){
+    height: $height;
+    width: $width;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align; 
+    border-radius: $border-radius;
+}
+
+.container-h{
+    @include container-p(100px, 100px, #000, center, center, 10px);
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.container-h2{
+    @include container-p(200px, 200px, blue, space-between, center, 50%);
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
