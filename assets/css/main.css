@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+nav {
+  height: 4rem;
+  background: #1eae11;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 2rem;
+  transition: all 0.3s ease-in-out;
+}
+nav a:hover {
+  color: #FFC107;
+}
+
+/*# sourceMappingURL=main.css.map */

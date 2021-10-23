@@ -1,0 +1,38 @@
+$primary-color:#1eae11;
+$secondary-color:#000; 
+$tertiary-color:#FFC107;
+
+
+$sm:2rem;
+$md:4rem;
+$lg:6rem;
+$xl:8rem;
+
+body {
+  margin: 0;
+}
+
+nav{ 
+    height: $md;
+    background: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 $sm;
+
+    
+    a{
+        color: $secondary-color;
+        text-decoration: none;
+        font-size: $sm;
+        font-weight: bold;
+        padding: 0 $sm;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            color: $tertiary-color;
+        }
+    }
+}
+
+
+
