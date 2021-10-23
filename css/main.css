@@ -1,0 +1,27 @@
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
